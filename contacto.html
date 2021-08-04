@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="framework.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="img/framework.png" type="image/x-icon">
+    <title>Framework | Contacto</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav negro">
+            <a href="index.html"><img src="img/framework.png" style="width: 30px;"></a>
+            <a class="" href="index.html">INICIO</a>
+            <a class="" href="estilos.html">Documentacion</a>
+            <a class="activo" href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contenedor">
+                <div class="contenedor">
+                    <section class="contact">
+                        <div class="u-wrapper">
+                            <div class="contact-content">
+
+                                <form id="form" action="" class="form form-group">
+                                    <h1 class="tag"><span>CONTACTO</span></h1>
+                                    <p for="name" class="">Nombre Completo <span>*</span></p>
+                                    <input class=" form input" name="name" required type="text"
+                                        id="name" placeholder="Nombre de cotacto" style="margin-bottom:20px">
+                                    <p for="email">Correo electrónico <span>*</span></p>
+                                    <input class="form input" name="email" type="text" id="email"
+                                        required placeholder="ejemplo@gmail.com" style="margin-bottom:20px">
+                                    <p for="message">Mensaje</p>
+                                    <textarea class="form input" id="message" name="message" id=""
+                                        cols="30" rows="10" style="margin-bottom:20px" placeholder="Escribe tu mensaje..."></textarea>
+                                    <button type="submit" class="myButton boton azul">Enviar
+                                        mensaje</button>
+                                </form>
+                                <a href="mailto:alan.martinezsalinas.ams@gmail.com" id="trucazo"
+                                    style="margin-bottom:50px"></a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <script>
+                    const $form = document.querySelector('#form')
+                    $form.addEventListener('submit', handleSubmit)
+
+                    function handleSubmit(event) {
+                        event.preventDefault()
+                        const form = new FormData(this)
+                        trucazo.setAttribute('href',
+                            `mailto:alan.martinezsalinas.ams@gmail.com?subject=${form.get('name')}${form.get('email')}&body=${form.get('message')}`
+                        )
+                        trucazo.click()
+                    }
+                </script>
+        </div>
+    </main>
+
+    
+</body>
+</html>

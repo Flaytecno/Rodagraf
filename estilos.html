@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="framework.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="img/framework.png" type="image/x-icon">
+    <title>Framework | Documentacion</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav negro">
+            <a href="index.html"><img src="img/framework.png" style="width: 30px;"></a>
+            <a class="" href="index.html">INICIO</a>
+            <a class="activo" href="estilos.html">Documentacion</a>
+            <a class="" href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contenedor">
+            <div class="card texto-centrado no-margen">
+                <h1>Formatos para Nav</h1>
+                <p> clase= nav- "color"</p>
+                <nav class="nav gris">
+                    <a class="activo" href="">GRIS</a>
+                    <a class="" href="">Menu1</a>
+                    <a class="" href="">Menu2</a>
+                </nav>
+                <nav class="nav">
+                    <a class="activo" href="">AZUL</a>
+                    <a class="" href="">Menu1</a>
+                    <a class="" href="">Menu2</a>
+                </nav>
+                <nav class="nav negro">
+                    <a class="activo" href="">NEGRO</a>
+                    <a class="" href="">Menu1</a>
+                    <a class="" href="">Menu2</a>
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="contenedor card texto-centrado">
+            <h1>Formato para Card</h1>
+            <div class="grid col-4 med-col-2 peq-col-1">
+                <div class="card"> Card Blanco class="card"</div>
+                <div class="card default">Card Default class="card default"</div>
+                <div class="card gris">Card Gris class="card gris"</div>
+                <div class="card negro">Card Negro class="card negro"</div>
+            </div>
+        </div>
+
+        <div class="contenedor">
+            <div class="card texto-centrado no-margen">
+                <h1>Formatos para H1</h1>
+                <h1>lorem10</h1>
+                <h2>lorem10</h2>
+                <h3>lorem10</h3>
+                <h4>lorem10</h4>
+                <h5>lorem10</h5>
+
+                <h1>Formatos para Display</h1>
+                <p> clase= distley- "#"</p>
+                <h1 class="distley-1">lorem10</h1>
+                <h2 class="distley-2">lorem10</h2>
+                <h3 class="distley-3">lorem10</h3>
+            </div>
+        </div>
+
+
+        <div class="contenedor">
+            <div class="card texto-centrado no-margen">
+                <h1>Formato para Botones</h1>
+                <br>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Objeto</th>
+                            <th>Color</th>
+                            <th>Sintaxis</th>
+                            <th>Visual</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTable">
+                        <tr>
+                            <td>Boton</td>
+                            <td>Blanco</td>
+                            <td> class="boton blanco" </td>
+                            <td><button class="boton blanco">Boton</button></td>
+                        </tr>
+                        <tr>
+                            <td>Boton</td>
+                            <td>Default</td>
+                            <td> class="boton" </td>
+                            <td><button class="boton">Boton</button></td>
+                        </tr>
+                        <tr>
+                            <td>Boton</td>
+                            <td>Rojo</td>
+                            <td> class="boton rojo"</td>
+                            <td><button class="boton rojo">Boton</button></td>
+                        </tr>
+                        <tr>
+                            <td>Boton</td>
+                            <td>Amarillo</td>
+                            <td> class="boton amarillo"</td>
+                            <td><button class="boton amarillo">Boton</button></td>
+                        </tr>
+                        <tr>
+                            <td>Boton</td>
+                            <td>Verde</td>
+                            <td> class="boton verde"</td>
+                            <td><button class="boton verde">Boton</button></td>
+                        </tr>
+                        <tr>
+                            <td>Boton</td>
+                            <td>Azul</td>
+                            <td> class="boton azul"</td>
+                            <td><button class="boton azul">Boton</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+
+        <div class="contenedor">
+            <div class="card texto-centrado no-margen">
+                <h1>Formato para Label</h1>
+                <br>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Objeto</th>
+                            <th>Color</th>
+                            <th>Sintaxis</th>
+                            <th>Visual</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTable">
+                        <tr>
+                            <td>label</td>
+                            <td>Trasparente</td>
+                            <td> class="label trasparente" </td>
+                            <td><label class="label trasparente">label</label></td>
+                        </tr>
+                        <tr>
+                            <td>label</td>
+                            <td>Default</td>
+                            <td> class="label" </td>
+                            <td><label class="label">label</label></td>
+                        </tr>
+                        <tr>
+                            <td>label</td>
+                            <td>Rojo</td>
+                            <td> class="label rojo"</td>
+                            <td><button class="label rojo">label</button></td>
+                        </tr>
+                        <tr>
+                            <td>label</td>
+                            <td>Amarillo</td>
+                            <td> class="label amarillo"</td>
+                            <td><button class="label amarillo">label</button></td>
+                        </tr>
+                        <tr>
+                            <td>label</td>
+                            <td>Verde</td>
+                            <td> class="label verde"</td>
+                            <td><button class="label verde">label</button></td>
+                        </tr>
+                        <tr>
+                            <td>label</td>
+                            <td>Azul</td>
+                            <td> class="label azul"</td>
+                            <td><button class="label azul">label</button></td>
+                        </tr>
+                        <tr>
+                            <td>label</td>
+                            <td>Degradado naranja</td>
+                            <td> class="label degnaranja"</td>
+                            <td><button class="label degnaranja">label</button></td>
+                        </tr>
+                        <tr>
+                            <td>label</td>
+                            <td>Degradado morado</td>
+                            <td> class="label degmorado"</td>
+                            <td><button class="label degmorado">label</button></td>
+                        </tr>
+                        <tr>
+                            <td>label</td>
+                            <td>Degradado verde</td>
+                            <td> class="label degverde"</td>
+                            <td><button class="label degverde">label</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+        <div class="contenedor">
+            <div class="card texto-centrado no-margen">
+                <h1>Formato para alineacion de texto</h1>
+                <br>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Objeto</th>
+                            <th>Sintaxis</th>
+                            <th>Visual</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTable">
+                        <tr>
+                            <td>Texto</td>
+                            <td> class="texto-centrado" </td>
+                            <td><label class="label texto-centrado">Lorem ipsum dolor sit amet.</label></td>
+                        </tr>
+                        <tr>
+                            <td>Texto</td>
+                            <td> class="texto-izquierda"</td>
+                            <td><button class="label texto-izquierda">Lorem ipsum dolor sit amet.</button></td>
+                        </tr>
+                        <tr>
+                            <td>Texto</td>
+                            <td> class="texto-derecha"</td>
+                            <td><button class="label texto-derecha">Lorem ipsum dolor sit amet.</button></td>
+                        </tr>
+                        <tr>
+                            <td>Texto</td>
+                            <td> class="texto-justify"</td>
+                            <td><button class="label texto-justificado">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, omnis.</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="contenedor">
+            <div class="card texto-centrado no-margen">
+                <h1>Formato para Grid Responsiv</h1>
+                <p>Puedes usar un grid de 12 columnas</p>
+                <label class="label azul">Utiliza varias clases de los diferentes tipos de dispositivos para hacer Responsive tu web</label>
+                <input class="form input" id="myInput" type="text" placeholder="Search..">
+                <br>
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Dispositivos</th>
+                            <th>Sintaxis columnas</th>
+                            <th>Sintaxis para el espacio que usara el contenedor</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTable">
+                        <tr>
+                            <td>Computadoras y TV</td>
+                            <td>class="col-1"</td>
+                            <td>class="span-1"</td>
+                        </tr>
+                        <tr>
+                            <td>Tablets 992px</td>
+                            <td>class="med-col-1"</td>
+                            <td>class="med-span-1"</td>
+                        </tr>
+                        <tr>
+                            <td>Celulares 576px</td>
+                            <td>class="peq-col-1"</td>
+                            <td>class="peq-span-1"</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <script>
+                $(document).ready(function () {
+                    $("#myInput").on("keyup", function () {
+                        var value = $(this).val().toLowerCase();
+                        $("#myTable tr").filter(function () {
+                            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                        });
+                    });
+                });
+            </script>
+        </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

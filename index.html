@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="framework.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="img/framework.png" type="image/x-icon">
+    <title>Framework | Flaytec</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav negro">
+            <a href="index.html"><img src="img/framework.png" style="width: 30px;"></a>
+            <a class="activo" href="index.html">INICIO</a>
+            <a class="" href="estilos.html">Documentacion</a>
+            <a class="" href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="contenedor">
+            <div class="card texto-centrado no-margen">
+                <h1>Framework | Flaytec</h1>
+                <p>
+                    Diseñe y personalice rápidamente sitios responsive para dispositivos móviles con Framework |
+                    Flaytec, el kit de herramientas de código abierto de front-end, que presenta variables y
+                    estilos CSS, sistema de cuadrícula receptivo, amplios componentes prediseñados con los cuales se
+                    faclitara el diseño de su paguina web.
+                </p>
+                <p>1.- Descarga la hoja de estilos CSS del Framework | Flaytec</p>
+                <a href="framework.rar"><label class="label azul"> DESCARGA </label></a>
+                <p>2.- Para poder usar el Framework, en la bacera de tu codigo adjunta el siguiente link de escilos CSS
+                </p>
+                <label class="label azul" onclick="copiarAlPortapapeles('p1')" id="p1"> link rel="stylesheet"
+                    href="framework.css" </label>
+            </div>
+
+        </div>
+        <div class="">
+            <h1 class="texto-centrado">Ejemplos</h1>
+
+            <div class="contenedor grid col-2 med-col-2 peq-col-1">
+
+                <div class="card span-2 peq-span-1 texto-centrado">
+                    
+                </div>
+
+                <div class="card span-2 peq-span-1 texto-centrado">
+                    <div>
+                        <h1> Slider</h1>
+                    </div>
+                    <!-- Start cssSlider.com -->
+                    <div class="csslider1 autoplay" style="width: 100%;">
+                        <input name="cs_anchor1" id='cs_slide1_0' type="radio" class='cs_anchor slide'>
+                        <input name="cs_anchor1" id='cs_slide1_1' type="radio" class='cs_anchor slide'>
+                        <input name="cs_anchor1" id='cs_slide1_2' type="radio" class='cs_anchor slide'>
+                        <input name="cs_anchor1" id='cs_play1' type="radio" class='cs_anchor' checked>
+                        <input name="cs_anchor1" id='cs_pause1' type="radio" class='cs_anchor'>
+                        <ul>
+                            <div style="width: 100%; visibility: hidden; font-size: 0px; line-height: 0;">
+                                <img src="http://cssslider.com/sliders/pen/images/buns.jpg" style="width: 100%;">
+                            </div>
+                            <li class='num0 img'>
+                                <a href="http://cssslider.com" target=""><img
+                                        src='http://cssslider.com/sliders/pen/images/buns.jpg' alt='Buns'
+                                        title='Buns' /> </a>
+                            </li>
+                            <li class='num1 img'>
+                                <a href="http://cssslider.com" target=""><img
+                                        src='http://cssslider.com/sliders/pen/images/buns.jpg' alt='Croissant'
+                                        title='Croissant' /> </a>
+                            </li>
+                            <li class='num2 img'>
+                                <a href="http://cssslider.com" target=""><img
+                                        src='http://cssslider.com/sliders/pen/images/buns.jpg' alt='Lemon pie'
+                                        title='Lemon pie' /> </a>
+                            </li>
+
+                        </ul>
+                        <div class='cs_description'>
+                            <label class='num0'>
+                                <span class="cs_title"><span class="cs_wrapper">Buns</span></span>
+                            </label>
+                            <label class='num1'>
+                                <span class="cs_title"><span class="cs_wrapper">Croissant</span></span>
+                            </label>
+                            <label class='num2'>
+                                <span class="cs_title"><span class="cs_wrapper">Lemon pie</span></span>
+                            </label>
+                        </div>
+
+                        <div class='cs_arrowprev'>
+                            <label class='num0' for='cs_slide1_0'><i class="fas fa-chevron-right"></i></label>
+                            <label class='num1' for='cs_slide1_1'></label>
+                            <label class='num2' for='cs_slide1_2'></label>
+                        </div>
+                        <div class='cs_arrownext'>
+                            <label class='num0' for='cs_slide1_0'></label>
+                            <label class='num1' for='cs_slide1_1'></label>
+                            <label class='num2' for='cs_slide1_2'></label>
+                        </div>
+
+                        <div class='cs_bullets'>
+                            <label class='num0' for='cs_slide1_0'>
+                                <span class='cs_point'></span>
+                                <span class='cs_thumb'><img src='http://cssslider.com/sliders/pen/tooltips/buns.jpg'
+                                        alt='Buns' title='Buns' /></span>
+                            </label>
+                            <label class='num1' for='cs_slide1_1'>
+                                <span class='cs_point'></span>
+                                <span class='cs_thumb'><img
+                                        src='http://cssslider.com/sliders/pen/tooltips/croissant.jpg' alt='Croissant'
+                                        title='Croissant' /></span>
+                            </label>
+                            <label class='num2' for='cs_slide1_2'>
+                                <span class='cs_point'></span>
+                                <span class='cs_thumb'><img src='http://cssslider.com/sliders/pen/tooltips/lemonpie.jpg'
+                                        alt='Lemon pie' title='Lemon pie' /></span>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- End cssSlider.com -->
+                    <div class="tooltip ">
+                        <a href="doc/slidercss.txt" target="_blank" class="boton azul"><span class="tooltiptext">HTML</span><i class="far fa-file-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="card span-2 peq-span-2 texto-centrado">
+                    <div class="grid col-3 med-col-1 pequ-col-1">
+                        <div class="card trasparente">
+                            <h2 class="label degnaranja">DESCUENTO DEL 100%</h2>
+                            <ul class="card trasparente">
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                            <button class="boton naranja">SUSCRIBIRME</button>
+                        </div>
+                        <div class="card trasparente">
+                            <h2 class="label degmorado">DESCUENTO DEL 50%</h2>
+                            <ul class="card trasparente">
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                            <button class="boton azul">SUSCRIBIRME</button>
+                        </div>
+                        <div class="card trasparente">
+                            <h2 class="label degverde">DESCUENTO DEL 25%</h2>
+                            <ul class="card trasparente">
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                            <button class="boton verde">SUSCRIBIRME</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card span-2 peq-span-2 texto-centrado">
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        <nav class="nav azul">
+                            <a class="" href="#">Login</a>
+                            <a class="" href="#">Contacto</a>
+                            <a class="activo" href="#">Galeria</a>
+                        </nav>
+                        <h1>Galeria</h1>
+                        <div class="carousel-inner grid col-3 med-col-2 peq-col-1 ">
+                            <div class="carousel-item active span-1 peq-span-2">
+                                <img src="img/paisaje.jpg" alt="paisaje" width="1100" height="500">
+                            </div>
+                            <div class="carousel-item span-1 peq-span-2">
+                                <img src="img/perro.jpg" alt="perro" width="1100" height="500">
+                            </div>
+                            <div class="carousel-item span-1 peq-span-2">
+                                <img src="img/perro2.jpg" alt="perro" width="1100" height="500">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card span-1 med-span-2 peq-span-1 texto-centrado">
+                    <nav class="nav negro">
+                        <a class="activo" href="#">Login</a>
+                        <a class="" href="#">Contacto</a>
+                        <a class="" href="#">Galeria</a>
+                    </nav>
+                    <h1>Login</h1>
+                    <p>Usuario *</p>
+                    <input type="text" class="input">
+                    <p>Contraseña *</p>
+                    <input type="password" class="input">
+                    <button class="boton azul">Ingresar</button>
+                </div>
+
+                <div class="card span-1 med-span-2 peq-span-1 texto-centrado">
+                    <nav class="nav gris">
+                        <a class="" href="#">Login</a>
+                        <a class="activo" href="#">Contacto</a>
+                        <a class="" href="#">Galeria</a>
+                    </nav>
+                    <h1>Contacto</h1>
+                    <label class="label rojo texto-justificado"><strong>Info:</strong> Esto es un formulario
+                        muestra</label>
+                    <p>Correo *</p>
+                    <input type="text" class="input">
+                    <p>Mensaje *</p>
+                    <textarea type="password" class="input"></textarea>
+                    <button class="boton verde">Ingresar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer negro grid col-2 med-col-1 peq-col-1 texto-centrado">
+        <div class="">
+            <ul>
+                <li class="label trasparente">Redes</li>
+                <a href="">
+                    <li class="label trasparente"><i class="fab fa-facebook-f"> Facebook</i></li>
+                </a>
+                <a href="">
+                    <li class="label trasparente"><i class="fab fa-whatsapp"> Whats App</i></li>
+                </a>
+                <a href="">
+                    <li class="label trasparente">FLAYTEC Tecnologia © Todos los derechos reservados</li>
+                </a>
+            </ul>
+        </div>
+        <div class="">
+            <ul>
+                <li class="label trasparente">Links</li>
+                <a href="index.html">
+                    <li class="label trasparente">Inicio</li>
+                </a>
+                <a href="estilos.html">
+                    <li class="label trasparente">Documentacion</li>
+                </a>
+                <a href="contacto.html">
+                    <li class="label trasparente">Contacto</li>
+                </a>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        function copiarAlPortapapeles(p1) {
+            var aux = document.createElement("input");
+            aux.setAttribute("value", document.getElementById(p1).innerHTML);
+            document.body.appendChild(aux);
+            aux.select();
+            document.execCommand("copy");
+            document.body.removeChild(aux);
+        }
+    </script>
+
+</body>
+
+</html>
